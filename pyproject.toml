@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hel-projects"
+version = "0.1.0"
+description = "Projeto d para documentação de conhecimento Heliezer Garcia"
+authors = ["heldeveloper <heliezer.developer@gmail.com>"]
+license = "GNU GPLv3"
+readme = "README.md"
+packages = [{include = "hel_projects"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.2"
+pymdown-extensions = "^9.9.2"
+mkdocs-material = "^9.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
