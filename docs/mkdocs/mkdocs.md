@@ -3,7 +3,7 @@
 
 ## O que é essa parada ?
 
-O Mkdocs é um gerador de sites estáticos construído em :simple-python:, e que utiliza markdown como formato de documentação.
+O Mkdocs é um gerador de sites estáticos construído em :simple-python:, e que utiliza [markdown](markdown.md) como formato de documentação.
 Totalmente personalizável, pode ser hospedado free no [GitHub Pages](https://www.mkdocs.org/user-guide/deploying-your-docs/), no [Readthedocs](https://readthedocs.org/) etc ...
 
 
