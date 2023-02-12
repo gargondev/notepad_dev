@@ -1,6 +1,8 @@
-# Projeto para meu Notepad de anotações técnicas
+# My Technical Notes and ideas day by day.
 
 
-# Feito em MkDocs
+# Make in MkDocs
 
+
+📚 [Show Here](https://heldeveloper.github.io/notepad_dev/)
 

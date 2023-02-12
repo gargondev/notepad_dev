@@ -1,16 +1,16 @@
 # 📚 MkDocs - What do i do, How to do ?
 
 
-## O que é essa parada ?
+## What is this?
 
-O Mkdocs é um gerador de sites estáticos construído em :simple-python:, e que utiliza [markdown](markdown.md) como formato de documentação.
-Totalmente personalizável, pode ser hospedado free no [GitHub Pages](https://www.mkdocs.org/user-guide/deploying-your-docs/), no [Readthedocs](https://readthedocs.org/) etc ...
+Mkdocs is a static website generator built on :simple-python:, built in that uses [markdown](markdown.md) as the documentation format.
+Full customizable, can be hosted free on [GitHub Pages](https://www.mkdocs.org/user-guide/deploying-your-docs/), and [Readthedocs](https://readthedocs.org/) etc ...
 
 
 
 ### Cli :octicons-command-palette-24:
 
-A cli do mkdocs é bem simples com os comandos.
+The Cli is very simple  and these are commands.
 
 !!! tip "CLI"
 
@@ -21,12 +21,12 @@ A cli do mkdocs é bem simples com os comandos.
         mkdocs -h
         ```
 
-    === "Start do Projeto"
+    === "Start project"
 
         ```shell
-        mkdocs new <nome_do_projeto>
+        mkdocs new <name_project>
         ```
-    === "Servidor Live Server"
+    === "Live Server"
         
         ```shell
         mkdocs serve
@@ -41,22 +41,22 @@ A cli do mkdocs é bem simples com os comandos.
         ```shell
         mkdocs gh-deploy
         ```
-### Estrutura básica do projeto :material-file-tree:
+### Project Tree basic :material-file-tree:
 
-O projeto mkdocs básico se divide na arvore abaixo:
+Project tree is like example below:
 
 ```shell
 .
-├── docs # Diretório para os arquivos .md
-│    ├── index.md # Index página inicial.
+├── docs # directory for the files .md
+│    ├── index.md # Index start page
 │   
-└── mkdocs.yml # Arquivo de configuração do mkdocs
+└── mkdocs.yml # file to configuration mkdocks.
 ```
-## Referencias
+## Show me references.
 
-[Doc Oficial](https://www.mkdocs.org/)
+[Oficial Doc](https://www.mkdocs.org/)
 
-### Implementações básicas.
+### Basic implementations in Portuguese-BR.
 
 [Video - Rafael Galleani](https://www.youtube.com/watch?v=k7rkjVfuB2M)
 

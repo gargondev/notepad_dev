@@ -1,6 +1,6 @@
 # Welcome to Notepad Heldeveloper 
 
-Anotações para o dia dia um programador.
+Annotations for day-to-day software programmer.
 
 
 ## Hard Skills :biohazard:
@@ -8,7 +8,7 @@ Anotações para o dia dia um programador.
 
 
 
-[Meu :fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/heliezer-garcia/)
+[My :fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/heliezer-garcia/?locale=en_US)
 
 
 

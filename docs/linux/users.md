@@ -1,6 +1,8 @@
 # Users
 
-Para você verificar os usuários cadastrados no sistema Linux basta digitar algum dos 3 comandos.
+## Check Users in Server.
+
+To check users in Server Linux, you need to execute any of the commands below.
 
 ```
 $ cat /etc/passwd

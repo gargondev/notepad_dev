@@ -5,9 +5,13 @@ nav:
   - Linux:
     - Groups: linux/groups.md
     - Users: linux/users.md
+    
   - Mkdocs:
     - What Is?: mkdocs/mkdocs.md
     - Markdown: mkdocs/markdown.md
+  - Docker:
+    - Network: docker/network.md
+    
 
 # Exemplo configuração do nav
 

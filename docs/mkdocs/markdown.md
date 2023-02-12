@@ -1,43 +1,49 @@
 # MarkDown
 
 
-## O que é [:octicons-markdown-16:](https://www.markdownguide.org/) ?
-Linguagem de marcação para criação de textos simples, podemos comparar com html porem com uma sintaxe bem mais simples.
+## What is it [:octicons-markdown-16:](https://www.markdownguide.org/)?
 
-## Markdown no Mkdocs Tipos
+It is a markup language you can use to format virtually any document.
+We can comparably like HTML, but it has a simple syntax.
 
-O Markdown tem basicamente duas padronizações diferentes com pequenas sutilezas entre elas podemos dizer que existe um modelo [padrão](https://www.markdownguide.org/basic-syntax/) e um [estendido](https://www.markdownguide.org/extended-syntax/).
+## Markdown on the Mkdocs Types.
 
-!!! tip "Padrão"
+The Markdown has two different standards, with small changes between them.
 
-    === "Cabeçalho"
+* [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+* [Extended Syntax](https://www.markdownguide.org/extended-syntax/)
+
+
+!!! tip "Basic"
+
+    === "Header"
 
         ``` markdown
-        # Título
-        ## SubTítulo
+        # Title
+        ## Subtitle
         ### h3
         ```
-    === "Código"
+    === "Code"
 
         ```markdown
         `xpto=1`
         ```
-    === "Citação"
+    === "Quote"
 
         ```markdown
-        > Citação de Código
+        > Quote of Code
         ```
     
     === "Images"
 
         ```markdown
-        ![nome imagem](./minha_image.jpg)
+        ![name image](./my_image.jpg)
         ```
 
-    === "Itálico"
+    === "Italic"
 
         ```markdown
-        *em intálico*
+        *in italic*
         ```
     === "Links"
 
@@ -45,14 +51,14 @@ O Markdown tem basicamente duas padronizações diferentes com pequenas sutileza
         [DuckDuckGo](https://ddg.gg)
         ```
     
-    === "Lista ordenada"
+    === "Ordered list"
 
         ``` markdown
         1. Sed sagittis eleifend rutrum
         2. Donec vitae suscipit est
         3. Nulla tempor lobortis orci
         ```
-    === "Lista não ordenada"
+    === "Unordered list"
 
         ``` markdown
         * Sed sagittis eleifend rutrum
@@ -60,39 +66,39 @@ O Markdown tem basicamente duas padronizações diferentes com pequenas sutileza
         * Nulla tempor lobortis orci
         ```
 
-    === "Negrito"
+    === "Bold"
 
         ``` markdown
-        **texto em negrito**
+        **Bold text**
         ```
 
 
 
-!!! example "Estendido"
+!!! example "Extended"
 
     === "Code Block"
 
-        ```markdown
+        ```python
             ```
             def funcao():
             return True
             ```
         ```
-    === "Tabelas"
+    === "Tables"
 
         ``` markdown
-         | Nome | Idade |
+         | Name | Age |
          | ---- | ----- |
          | Heliezer | 39 |
          | Fausto   | 20 |
         ```
 
-    === "Lista de tarefas"
+    === "To-do list"
 
         ``` markdown
-        - [ ] Fazer Compras
-        - [x] Escrever Artigo
-        - [ ] Pedir Pizza
+        - [ ] Shop Foods
+        - [x] Write Article
+        - [ ] Improve library documentation
         ```
 
     === "Emoji"
@@ -101,13 +107,13 @@ O Markdown tem basicamente duas padronizações diferentes com pequenas sutileza
         :snake: 🐍
         ```
 
-    === "Tachado"
+    === "Strikethrough"
 
         ```markdown
-        ~~tachado~~
+        ~~Strikethrough~~
         ```
-    === "Realçado"
+    === "Highlighted"
 
         ```markdown
-        ==realçado==
+        ==highlighted==
         ```

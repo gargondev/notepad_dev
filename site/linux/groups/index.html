@@ -329,15 +329,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#groups-e-de-comer" class="md-nav__link">
-    Groups é de comer ?
+  <a href="#are-groups-edible" class="md-nav__link">
+    Are Groups edible?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#adicionando-usuario-a-um-grupo" class="md-nav__link">
-    Adicionando usuário a um grupo.
+  <a href="#adding-a-user-a-group" class="md-nav__link">
+    Adding a user, a group.
   </a>
   
 </li>
@@ -434,6 +434,55 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
+          Docker
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Docker" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Docker
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../docker/network/" class="md-nav__link">
+        Network
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -461,15 +510,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#groups-e-de-comer" class="md-nav__link">
-    Groups é de comer ?
+  <a href="#are-groups-edible" class="md-nav__link">
+    Are Groups edible?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#adicionando-usuario-a-um-grupo" class="md-nav__link">
-    Adicionando usuário a um grupo.
+  <a href="#adding-a-user-a-group" class="md-nav__link">
+    Adding a user, a group.
   </a>
   
 </li>
@@ -491,22 +540,27 @@
 
 
 <h1 id="groups">Groups</h1>
-<h2 id="groups-e-de-comer">Groups é de comer ?</h2>
-<p>O Groups é utilizado para gerenciar permissões do usuário no sistema.
-O Comando <code>$ groups</code> mostra em quais grupos o seu usuário atual que você esta logado pertence.</p>
+<h2 id="are-groups-edible">Are Groups edible?</h2>
+<p>Groups are used to manage user permissions in the system. 
+The $ groups command shows which groups your currently logged-in user belongs to.</p>
 <p><div class="highlight"><pre><span></span><code>groups
 docker wheel heliezer
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>groups
 heliezergoncalves sudo
 </code></pre></div></p>
-<h2 id="adicionando-usuario-a-um-grupo">Adicionando usuário a um grupo.</h2>
+<h2 id="adding-a-user-a-group">Adding a user, a group.</h2>
 <p><code>$ sudo usermod -aG &lt;name_group&gt; &lt;name_user&gt;</code></p>
-<p>A flag <code>-aG</code> diz para adicionar o usuário em <code>&lt;name_user&gt;</code> no grupo <code>&lt;name_group&gt;</code>. </p>
-<p>Uma situação muito comum é estar logado em servidor linux e necessitar de permissão sudo para executar um comando administrativo.</p>
-<div class="highlight"><pre><span></span><code>$ docker ps
+<p>The flag <code>-aG</code> say to add the user in <code>&lt;name_user&gt;</code> at group <code>&lt;name_group&gt;</code>. </p>
+<p>A widespread situation is a user in Linux Server needs privileges to make a sudo command. </p>
+<p><div class="highlight"><pre><span></span><code>$ docker ps
 Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json&quot;: dial unix /var/run/docker.sock: connect: permission denied
 </code></pre></div>
+First create the group docker.</p>
+<p><code>sudo groupadd docker</code></p>
+<p>Add your user to the docker group.</p>
+<p><code>sudo usermod -aG docker ${USER}</code></p>
+<p>Maybe you need to log out and back in, for the group membership re-evaluated and accepted.</p>
 <div class="highlight"><pre><span></span><code>$ sudo docker ps
 CONTAINER ID  IMAGE  COMMAND  CREATED  STATUS  NAMES
 </code></pre></div>
