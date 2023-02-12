@@ -10,7 +10,10 @@ nav:
     - What Is?: mkdocs/mkdocs.md
     - Markdown: mkdocs/markdown.md
   - Docker:
+    - Wsl: docker/wsl.md
     - Network: docker/network.md
+  - Vscode:
+    - Vscode: vscode/vscode.md
     
 
 # Exemplo configuração do nav
