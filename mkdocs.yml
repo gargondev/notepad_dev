@@ -11,7 +11,9 @@ nav:
     - Markdown: mkdocs/markdown.md
   - Docker:
     - Wsl: docker/wsl.md
+    - Cleaner: docker/cleaner.md
     - Network: docker/network.md
+
   - Vscode:
     - Vscode: vscode/vscode.md
     
