@@ -2,6 +2,8 @@ site_name: HeliezerDev
 
 nav:
   - Home: index.md
+  - Git: 
+    - Checkout: git/checkout.md
   - Linux:
     - Groups: linux/groups.md
     - Users: linux/users.md
